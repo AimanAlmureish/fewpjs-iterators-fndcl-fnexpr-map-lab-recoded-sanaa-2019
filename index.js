@@ -15,11 +15,9 @@ const titleCased = () => {
   return tutorials
 }
 
-function newFunc(){
-  
-}
+
 
 let arr = tutorials.map(item =>{
-  console.log(toUpperCase(item));
+  console.log(toUpperCase(item.toUpperCase()));
   return item;
 })
