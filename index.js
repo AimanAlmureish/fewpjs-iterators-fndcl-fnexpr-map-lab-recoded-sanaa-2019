@@ -15,6 +15,10 @@ const titleCased = () => {
   return tutorials
 }
 
+function newFunc(){
+  
+}
+
 let arr = tutorials.map(funuction(item){
   console.log(item);
   return item;
