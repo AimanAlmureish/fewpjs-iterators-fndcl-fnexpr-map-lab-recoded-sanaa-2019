@@ -19,7 +19,6 @@ const tutorials = [
   
   
   let arr = tutorials.map(item => {
-    console.log(item.toUpperCase());
     return item.toLowerCase();
   })
   
