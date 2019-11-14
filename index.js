@@ -18,9 +18,9 @@ const tutorials = [
   
   
   
-  let arr = tutorials.map(item => {
+  let arr = titleCased.map(item => {
+    console.log(item.toUpperCase());
     return item.toLowerCase();
   })
-  
   console.log(arr);
   
