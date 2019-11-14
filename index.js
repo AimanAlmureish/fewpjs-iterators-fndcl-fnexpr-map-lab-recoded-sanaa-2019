@@ -20,6 +20,8 @@ function newFunc(){
   console.log(item);
   return item;
 })
+
+return arr
 }
 
 
