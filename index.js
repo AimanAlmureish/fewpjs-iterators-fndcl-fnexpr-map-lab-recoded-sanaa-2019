@@ -20,6 +20,6 @@ function newFunc(){
 }
 
 let arr = tutorials.map(item =>{
-  console.log(item);
+  console.log(toUpperCase(item));
   return item;
 })
