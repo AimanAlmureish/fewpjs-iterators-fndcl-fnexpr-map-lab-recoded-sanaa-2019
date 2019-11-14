@@ -16,12 +16,10 @@ const titleCased = () => {
 }
 
 function newFunc(){
-  let arr = tutorials.map(item =>{
+  
+}
+
+let arr = tutorials.map(item =>{
   console.log(item);
   return item;
 })
-
-return arr
-}
-
-
